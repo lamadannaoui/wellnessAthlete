@@ -1,23 +1,26 @@
-<!-- hon 3melet copy lal code mtl ma hewe -->
+<!-- hon 3melet copy lal code te3 signup-in.html la2an ta2riban nafs ldesign -->
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
     <head>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
         <meta charset="utf-8">
         
-        <!-- dekhalet font mn google -->
+        <!-- kermel ldesign w font mn google -->
         <link rel="stylesheet" type="text/css" href="signup-r.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
         
         <title>WA_signup</title>
     </head>
     <body>
-        <!-- heda mishen l bmi -->
+        <!-- 3emel container kbire b2alba 4 z8ar wahde lal BMI calculation and wahde lal medical history wl place wgoal w 2 kermel yetna2al bayneton -->
         <div class="main">
+            
+            <!-- hed container kermel l BMI -->
             <div class="container a-container" id="a-container">
-                <form class="form" id="a-form" method="" action="">
+                <form class="form" id="a-form" method="" action=""><!--see if i should add a php or no :)-->
                     <h2 class="form_title title">Calculate your BMI</h2>
-                    <div class="w-h" style="display: flex;"> <!--kermel bas efeslon whot kl 2 sawa-->
+                    <!-- 3melet kaza div la zabet chway bldesign wma 3a2ed lcode ktir -->
+                    <div class="w-h" style="display: flex;"> 
                         <input class="form__input" type="number" placeholder="weight in kg" min="40">
                         <input class="form__input" type="number" placeholder="height in cm" min="100">
                     </div>
@@ -29,13 +32,13 @@
                             <label for="male">male</label>
                             <input type="radio" name="gender" value="female" style="margin-left: 15px; margin-top: 7px;">
                             <label for="female">female</label>
-                        </div><!-- kan fi fa2se hon bas chelta elet mna3melu welcoming page mn7etelou lresult b2alba wb2alb accountou de8ri-->
+                        </div>
                     </div>
                 </form>
             </div>
-            <!-- fi ktir div 3endon style bas la2an knt 3am jareb kaza cha8le fa ma3meltelon class bl css-->
+            <!-- he container kermel lmedical history wl preffered exercise place wl goal -->
             <div class="container b-container" id="b-container">
-                <form class="form" id="b-form" method="" action="">
+                <form class="form" id="b-form" method="" action=""><!-- see if i should add php or no -->
                     <div style="width: 300px; background-color: #0a460e; height: 30px; align-items: center; justify-content: center;display: flex; color: #f9f9f9; margin-bottom: 10px;">
                         <h3>Medical History</h3>
                     </div>
@@ -55,21 +58,25 @@
                         <input type="radio" name="Place" value="Gym"><label for="Gym" style="margin-right: 50px;">Gym</label>
                         <input type="radio" name="Place" value="Home"><label for="Home">Home</label>
                     </div>
-                    <button class="form__button button submit" type="submit">SIGN UP</button>
+                    <button class="form__button button submit" type="submit">SIGN UP</button><!-- add some function and RegExp and a destination -->
                 </form>
             </div>
+            
+            <!-- hol mtl container z8ire kermel yente2el ben l BMI wlbe2yin -->
             <div class="switch" id="switch-cnt">
                 <div class="switch__circle"></div>
                 <div class="switch__circle switch__circle--t"></div>
+                <!-- he bteji had container l BMI kermel bas ykhales yef2os lfa2se wyene2lou lal medical history etc -->
                 <div class="switch__container" id="switch-c1">
                     <h2 class="switch__title title">Almost there!</h2>
                     <p class="switch__description description">Enter you height, weight, age and gender to calculate your BMI and then press the button below to go to the next step</p>
                     <button class="switch__button button switch-btn">NEXT</button>
                 </div>
+                <!-- he bteji had container l medical history kermel eza luser 8alat bchi aw kan bedu yet2akad mn lechya li 7ata bl BMI bisir byef2os lfa2se layraj3u 3al BMI wlma3loumet mabtrou7 lahadid ma yef2os signup ya3ni fi y3adel 3layon ad ma bedu abl ma yef2os signup -->
                 <div class="switch__container is-hidden" id="switch-c2">
                     <h2 class="switch__title title">Did a mistake?</h2>
                     <p class="switch__description description">Did you forgot somthing or think you made a mistake? You can press the button below to go back and edit your information</p>
-                    <button class="switch__button button switch-btn">BACK</button><!-- lma3loumet bdal mtl ma hiye law 3emel next w back bas yef2os signup 7ayen3emel la klchi calculation wnsayev lajwibe-->
+                    <button class="switch__button button switch-btn">BACK</button>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-/* nafs ltenye bas b2alba kam cha8le zyede plus fi 2e7timel yet8ayar kam cha8le fa 2elet ba3mel wahde tenye badal ma ouweslon 3a nafs lfile */
+/* 3emel copy mnel signup-in wm8ayar kam cha8le bas mabda2iyan nafs l class */
 *, *::after, *::before{
     margin: 0;
     padding: 0;
@@ -25,8 +25,8 @@ body{
     min-height: 600px;
     height: 600px;
     padding: 25px;
-    /* background-color: #ecf0f3; */
-    background-image: url(img/signup-in_bg.png);
+    background-color: #1B5E20;
+    /* background-image: url(img/signup-in_bg.png); */
     background-size: cover;
     box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
     border-radius: 12px;
@@ -110,6 +110,7 @@ body{
     box-shadow: inset 2px 2px 4px #1B5E20, inset -2px -2px 4px #f9f9f9;
 }
 
+/* he class ana zeydu kermel zabet ltari2a kif lgender haybayen */
 .gender > h3{
     width: 150px;
     height: 40px;
