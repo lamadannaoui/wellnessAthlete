@@ -83,7 +83,7 @@ body{
     height: 100%;
     padding: 25px;
     /* background-color: #ecf0f3; */
-    background-image: url('img/signup-in_bg.png');
+    background-image: url('../img/signup-in_bg.png');
     background-size: cover;
     transition: 1.25s; /*he bas kermel l animation ede lwa2et li lezem tekhdu*/
 }

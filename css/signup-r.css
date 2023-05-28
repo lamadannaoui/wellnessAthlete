@@ -14,8 +14,10 @@ body{
     align-items: center;
     font-family: "Montserrat",sans-serif;
     font-size: 12px;
-    background-color: #ecf0f3;
+    background-color: #6b7888;
+    /* background-color: #060f18e0; */
     color: #a0a5a8;
+    padding-top: 20px;
 }
 
 .main{
@@ -28,7 +30,7 @@ body{
     background-color: #1B5E20;
     /* background-image: url(img/signup-in_bg.png); */
     background-size: cover;
-    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    box-shadow: 3px 3px 3px #d1d9e6, -3px -3px 3px #f9f9f9;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -80,7 +82,7 @@ body{
     height: 100%;
     padding: 25px;
     /* background-color: #ecf0f3; */
-    background-image: url('img/signup-in_bg.png');
+    background-image: url('../img/signup-in_bg.png');
     background-size: cover;
     transition: 1.25s;
 }
@@ -146,7 +148,14 @@ body{
     font-size: 34px;
     font-weight: 700;
     line-height: 3;
-    color: #181818;
+    color: #fff;
+}
+
+.form > .title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 3;
+    color: #000;
 }
 
 .description{
@@ -154,6 +163,7 @@ body{
     letter-spacing: 0.25px;
     text-align: center;
     line-height: 1.6;
+    color: #fff;
 }
 
 .button{
@@ -166,7 +176,7 @@ body{
     letter-spacing: 1.15px;
     background-color: #1B5E20;
     color: #f9f9f9;
-    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+    box-shadow: 4px 4px 6px 6px #d1d9e6, -3px -3px 5px 5px #f9f9f9;
     border: none;
     outline: none;
 }
@@ -193,7 +203,9 @@ body{
     padding: 50px;
     z-index: 200;
     transition: 1.25s;
-    background-color: #ecf0f3;
+    background-color: #060f18e0;
+    /* background-color: #6b7888; */
+    /* background-color: #becb65; */
     overflow: hidden;
     box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
 }
@@ -204,7 +216,7 @@ body{
     height: 500px;
     border-radius: 50%;
     background-color: #b7e9a4;
-    box-shadow: inset 8px 8px 12px #d1d9e6, inset -6px -6px 10px #f9f9f9;
+    box-shadow: inset 8px 8px 12px #6b7888, inset -6px -6px 10px #8a9aad;
     bottom: -60%;
     left: -60%;
     transition: 1.25s;   
@@ -233,7 +245,7 @@ body{
 }
 
 .switch__button:hover{
-    box-shadow: 6px 6px 10px #d1d9e6, -6px -6px 10px #f9f9f9;
+    box-shadow: 2px 2px 3px 3px #d1d9e6, -2px -2px 3px 3px #f9f9f9;
     transform: scale(0.985);
     transition: 0.25s;
 }
