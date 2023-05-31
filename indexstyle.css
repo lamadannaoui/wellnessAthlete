@@ -1,7 +1,7 @@
  /* Sets the font properties for the body and html elements. 
    It uses the font family "Lato" with a font weight of 400, 
    font size of 15 pixels, and a line height of 1.8. */
-body, html {
+body, html { 
   height: 100%; 
   margin: 0; /* Removes the default margin */
   padding: 0; /* Removes the default padding */
@@ -18,7 +18,6 @@ body, html {
 }
     body {
       background-color: #060f18e0;
-      width: 100%;
     }
     .bgimg-1 {
       background-color: transparent !important; 
@@ -30,8 +29,7 @@ body, html {
       background-size: cover; 
       background-image: url(img/Slice\ 1.jpg); 
       min-height: 100%; 
-       
-      background-size: 1930px 920px !important;
+      background-size: 1260px 723px !important;
       position: relative;    
     }
       .nav {
