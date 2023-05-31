@@ -174,7 +174,7 @@ body{
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1.15px;
-    background-color: #1B5E20;
+    background-color: #eb4848;
     color: #f9f9f9;
     box-shadow: 4px 4px 6px 6px #d1d9e6, -3px -3px 5px 5px #f9f9f9;
     border: none;
@@ -215,8 +215,8 @@ body{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: #b7e9a4;
-    box-shadow: inset 8px 8px 12px #6b7888, inset -6px -6px 10px #8a9aad;
+    background-color: #dd2525;
+    box-shadow: inset 8px 8px 12px #8896a7, inset -6px -6px 10px #8896a7;
     bottom: -60%;
     left: -60%;
     transition: 1.25s;   
