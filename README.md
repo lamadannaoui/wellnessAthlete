@@ -1,2 +1,2 @@
-# hi
-check the resume-signup.html w 2oulouli aya ahla eza b8ayer lteni aw braje3 hed mt ma ken or eza bedkon etrok ljdid bas 3adel 3leh
+# add connection.php and working on updated home page 
+zedet home.php ma3 home.css wkam soura l home.php esa ma khelasta bas nedafta 3al ekher be2ili bas zabet lnav bar 8ayer lfa2set wlkatibe w2ouwsol el linket wesa 3layi ektob l php lal home hala ana ka fa2set knt newi 7ot masalan badal el workout ektob fitness w b2alba 7ot linket la page lfitness weza lcha5es makan 3emel login btsir bte5dou 3al login wbas y5ales bterja3 bte5du 3al matra7 yali hewe bedu yeh also sorry bas ma3am efda dayman la 2e2der echte8el 3leh hewe hayda kan lezem 5alesu nbere7 aw lyom bas lyom ma 2deret so boukra 7a echte8el 3leh bl uni chway 

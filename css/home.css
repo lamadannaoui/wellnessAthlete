@@ -1,0 +1,795 @@
+:root {
+  --main-color: #becb65;
+  --main-bg-transparent: #060f18e0;
+  --main-bg: #060f18;
+  --black: #000000;
+  --white: #ffffff;
+  --light-grey-color: #414d5c;
+  --light-bg: #eee;
+  --border: .2rem solid var(--black);
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+
+html {
+  font-family: sans-serif;
+  /* -ms-text-size-adjust: 100%; */
+  /* -webkit-text-size-adjust: 100%; */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+
+body {
+  margin: 0;
+  color: #2A2A2A;
+  font-family: "Work Sans", sans-serif;
+  /* -webkit-font-smoothing: antialiased; */
+  min-height: 100vh;
+  /* background-color: var(--light-bg); */
+}
+
+
+/* he lal tlat ch7awit li 3al taraf :P */
+#menu-trigger {
+  display: inline-flex;
+  width: 48px;
+  height: 48px;
+  transform: rotate(0deg);
+  transition: .15s ease-in-out;
+  cursor: pointer;
+  margin-left: auto;
+  position: relative;
+  z-index: 110;
+}
+
+@media (min-width: 1024px) {
+  #menu-trigger {
+    width: 55px;
+    height: 80px;
+  }
+}
+
+#menu-trigger:hover span:before {
+  top: -8px;
+}
+
+#menu-trigger:hover span:after {
+  top: 8px;
+}
+
+#menu-trigger span {
+  display: block;
+  background: var(--main-color);
+  width: 20px;
+  height: 2px;
+  margin: auto;
+  position: relative;
+}
+
+#menu-trigger span:before,
+#menu-trigger span:after {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background: var(--main-color);
+  position: absolute;
+  left: 0;
+  transition: .15s ease-in-out;
+}
+
+#menu-trigger span:before {
+  top: -5px;
+}
+
+#menu-trigger span:after {
+  top: 5px;
+}
+
+
+/* he lal souwar li bl article */
+div.ratio-based-placeholder {
+  display: block;
+  width: 100%;
+  height: 0;
+  position: relative;
+}
+
+
+/* he lal jemal li bl article */
+h3 a {
+  color: var(--main-color);
+}
+
+
+/* he lal souwar li b2alb l article */
+.article__figure img {
+  display: block;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* -o-object-fit: cover; */
+  object-fit: cover;
+  margin: 0 auto;
+  z-index: 1;
+  transition: opacity 0.2s;
+}
+
+
+/* he lal jemal li b2alb l article */
+.article-simple__title {
+  display: block;
+  display: -webkit-box;
+  /* -webkit-line-clamp: 3; */
+  /* -webkit-box-orient: vertical; */
+  overflow: hidden;
+  max-height: 60px;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-transform: initial;
+  margin-bottom: 0;
+  transition: opacity 0.2s;
+}
+
+
+/* lal katibe yali b2alb klchi mn3ada el workouts */
+.article-simple__title:hover {
+  opacity: 0.6;
+}
+
+
+.header {
+  width: 100%;
+  background: #060f18;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  position: sticky;
+}
+
+
+.header__content {
+  display: flex;
+  padding-left: 20px;
+}
+
+@media (max-width: 1023px) {
+  .header__content {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__content {
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1190px) {
+  .header__content {
+    padding-left: 10px;
+  }
+}
+
+.header__logo {
+  flex-shrink: 0;
+  line-height: 0;
+  margin: 0;
+  position: relative;
+  top: 5px;
+}
+
+@media (min-width: 1024px) {
+  .header__logo {
+    top: 10px;
+    z-index: 100;
+  }
+}
+
+.header__logo-icon {
+  width: 33px;
+  height: 38px;
+}
+
+@media (min-width: 1024px) {
+  .header__logo-icon {
+    width: 53px;
+    height: 61px;
+  }
+}
+
+
+.main-nav {
+  flex-grow: 1;
+  padding-right: 20px;
+}
+
+@media (max-width: 1023px) {
+  .main-nav {
+    width: 100vw;
+    height: 100vh;
+    background: var(--main-bg);
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: opacity 0.2s;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+.main-nav__list {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .main-nav__list {
+    min-height: calc(100vh - 120px);
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 50vw 50vw;
+    padding: 50px 0;
+    transition: transform 0.3s;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-nav__list {
+    background-size: 75vw 75vw;
+  }
+}
+
+.main-nav__list>.menu-item {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 1023px) {
+  .main-nav__list>.menu-item {
+    width: 100%;
+    height: auto;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+}
+
+/* he la tbayen lsubmenu */
+.main-nav__list>.menu-item:hover .main-nav__submenu {
+  display: block;
+}
+
+
+/* he te3it l sponcore trakta mtl ma hiye kermel eza kerarna nhot souwar  */
+.main-nav__list>.menu-item.flex-nav-item>a,
+.main-nav__list>.menu-item.hers-nav-item>a,
+.main-nav__list>.menu-item.olympia-nav-item>a {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* text-indent: -9999px; */
+  line-height: 1.1;
+  transition: opacity .2s;
+}
+
+
+@media (max-width: 1023px) {
+  .main-nav__list>.menu-item.flex-nav-item {
+    order: 14;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-nav__list>.menu-item.flex-nav-item {
+    background-size: 43px;
+  }
+}
+
+/* .main-nav__list>.menu-item.flex-nav-item>a {
+  height: 28px;
+  background-image: url(""); he la awal sponsor
+} */
+
+@media (min-width: 1024px) {
+  .main-nav__list>.menu-item.flex-nav-item>a {
+    width: 80px;
+    background-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+  .main-nav__list>.menu-item.flex-nav-item>a {
+    width: 60px;
+  }
+}
+
+
+
+@media (max-width: 1023px) {
+  .main-nav__list>.menu-item.hers-nav-item {
+    order: 15;
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-nav__list>.menu-item.hers-nav-item {
+    background-size: 68px;
+  }
+}
+
+/* .main-nav__list>.menu-item.hers-nav-item>a {
+  height: 28px;
+  background-image: url(""); he la teni sponcor
+} */
+
+@media (min-width: 1024px) {
+  .main-nav__list>.menu-item.hers-nav-item>a {
+    width: 112px;
+    background-size: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+  .main-nav__list>.menu-item.hers-nav-item>a {
+    width: 100px;
+  }
+}
+
+
+
+@media (max-width: 1023px) {
+  .main-nav__list>.menu-item.olympia-nav-item {
+    order: 16;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-nav__list>.menu-item.olympia-nav-item {
+    background-size: 68px;
+  }
+}
+
+.main-nav__list>.menu-item.olympia-nav-item>a {
+  /* background-image: url(""); he la telet wahde */
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+@media (min-width: 1024px) {
+  .main-nav__list>.menu-item.olympia-nav-item>a {
+    /* background: transparent url("") no-repeat center; he la telet wahde */
+    width: 118px;
+    /* height: 28px; */
+    background-size: 87px;
+    position: relative;
+    /* top: 1px; */
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+  .main-nav__list>.menu-item.olympia-nav-item>a {
+    width: 100px;
+  }
+}
+
+.main-nav__list>.menu-item>a {
+  color: var(--main-color);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1190px) {
+  .main-nav__list>.menu-item>a {
+    padding: 0 7px;
+  }
+}
+
+@media screen and (min-width: 1191px) and (max-width: 1300px) {
+  .main-nav__list>.menu-item>a {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main-nav__list>.menu-item>a {
+    width: 100%;
+    color: var(--main-color);
+    font-size: 39px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .main-nav__list>.menu-item>a {
+    font-size: 29px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-nav__list>.menu-item>a {
+    white-space: nowrap;
+  }
+}
+
+.main-nav__list>.menu-item>a:hover {
+  color: #ffffff;
+}
+
+.main-nav__submenu {
+  width: 100%;
+  background: #ffffff;
+  overflow: hidden;
+  /* box-shadow: 0 20px 25px rgba(42, 42, 42, 0.3); */
+  position: absolute;
+  top: 80px;
+  left: 0;
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .main-nav__submenu {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    padding: 50px 20px 30px 30px;
+    position: fixed;
+    top: 0;
+    left: 100%;
+  }
+
+  .main-nav__submenu.show {
+    z-index: 110;
+  }
+
+  .main-nav__submenu:before {
+    content: '';
+    display: block;
+    background: #ffffff;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+
+/* he kermel t7ot lsubmenu wl article had ba3ed  */
+.main-nav__submenu .l-container {
+  display: flex;
+}
+
+@media (max-width: 1023px) {
+  .main-nav__submenu .l-container {
+    display: block;
+    height: 100%;
+    position: static;
+  }
+}
+
+
+
+/* he lal list lz8ire li b2alb kl wahde mn te3un lnav */
+.main-nav__submenu__list {
+  min-width: 260px;
+  list-style-type: none;
+  background: #2A2A2A;
+  padding: 40px 60px 40px 10px;
+  margin: 0;
+  text-align: right;
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  .main-nav__submenu__list {
+    width: 100%;
+    background: transparent;
+    padding: 0 10px 0 30px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-nav__submenu__list:before {
+    content: '';
+    display: block;
+    background: #2A2A2A;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 100%;
+  }
+}
+
+.main-nav__submenu__list li {
+  margin-bottom: 20px;
+}
+
+
+.main-nav__submenu__list li a {
+  color: #ffebcc;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+  .main-nav__submenu__list li a {
+    color: #ffebcc;
+    font-size: 18px;
+  }
+}
+
+.main-nav__submenu__list li a:hover {
+  opacity: 0.6;
+}
+
+
+
+/* he lal jeze2 lteni li b2albu l table wl article */
+.main-nav__submenu__grid {
+  flex-grow: 1;
+  padding: 20px 5px 0;
+}
+
+@media (max-width: 1023px) {
+  .main-nav__submenu__grid {
+    display: none;
+  }
+}
+
+.main-nav__submenu__grid-title {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.main-nav__submenu__grid-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* he lal mouraba3at li b2alb lworkout */
+.main-nav__submenu__grid-list li {
+  width: calc(33.33% - 10px);
+  height: 90px;
+  display: inline-flex;
+  background: #dedede;
+  padding: 0 15px;
+  margin: 0 5px 10px;
+  transition: all 0.2s;
+}
+
+@media (min-width: 1221px) {
+  .main-nav__submenu__grid-list li {
+    height: 100px;
+  }
+}
+
+.main-nav__submenu__grid-list li:hover {
+  background: #cacaca;
+}
+
+/* he lal katibe li b2alb l mouraba3at */
+.main-nav__submenu__grid-list li a {
+  color: #666666;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+}
+
+@media (min-width: 1221px) {
+  .main-nav__submenu__grid-list li a {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+.main-nav__submenu__articles {
+  display: flex;
+  padding: 40px 10px 60px 30px;
+}
+
+@media (max-width: 1023px) {
+  .main-nav__submenu__articles {
+    display: none;
+  }
+}
+
+@media (min-width: 1221px) {
+  .main-nav__submenu__articles {
+    padding-right: 30px;
+  }
+}
+
+.main-nav__submenu__articles .article-simple {
+  width: 25%;
+  display: block;
+  padding: 0 15px;
+}
+
+@media (min-width: 1221px) {
+  .main-nav__submenu__articles .article-simple {
+    padding: 0 32px;
+  }
+}
+
+.main-nav__submenu__articles .article-simple:not(:last-child) {
+  border-right: 1px solid #B8B8B8;
+}
+
+.main-nav__submenu__articles .article-simple__thumbnail {
+  display: block;
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+.main-nav__submenu__articles .article-simple__title {
+  text-overflow: unset;
+}
+
+.main-nav__submenu__articles .article-simple .article__category {
+  display: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+*::selection {
+  background-color: var(--main-color);
+  color: var(--white);
+}
+
+
+/* section {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+
+::-webkit-scrollbar {
+  height: .5rem;
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--main-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+
+
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: .5rem;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: var(--white);
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: var(--black);
+}
+
+.btn {
+  background-color: var(--main-color);
+}
+
+
+
+/* he lal background matra7 lslider */
+.home-bg {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent !important; 
+  opacity: 0.95;
+  background-attachment: fixed;
+  min-height: 100%;
+  background-size: 100%;
+}
+
+.home-bg .home .slide {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
+  user-select: none;
+}
+
+.home-bg .home .slide .image {
+  flex: 1 1 40rem;
+}
+
+.home-bg .home .slide .image img {
+  height: 40rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.home-bg .home .slide .content {
+  flex: 1 1 40rem;
+}
+
+.home-bg .home .slide .content span {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.home-bg .home .slide .content h3 {
+  margin-top: 1rem;
+  font-size: 4rem;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.home-bg .home .slide .content .btn {
+  display: inline-block;
+  width: auto;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--main-color);
+}
