@@ -30,7 +30,7 @@
                     <ul id="menu-top-primary-menu" class="main-nav__list">
                         <!-- workout list -->
                         <li id="menu-item-1098842" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1098842">
-                            <a href="#" aria-haspopup="true" aria-expanded="false">Workouts</a>
+                            <a href="#" aria-haspopup="true" aria-expanded="false">Fitness</a>
 
                             <div class="main-nav__submenu">
                                 <div class="l-container">
@@ -47,10 +47,10 @@
                                     </ul>
                                     <!-- he ltable li b2alb lworkout -->
                                     <div class="main-nav__submenu__grid">
-                                        <span class="main-nav__submenu__grid-title">Find Exercises Targeting…</span>
+                                        <span class="main-nav__submenu__grid-title">Find the page you're Targeting…</span>
                                         <ul class="main-nav__submenu__grid-list">
-                                            <li><a href="#">Abs and Core Exercises</a></li>
-                                            <li><a href="#">Arm Exercises</a></li>
+                                            <li><a href="#">Recalculate your BMI</a></li>
+                                            <li><a href="#">Check your progress</a></li>
                                             <li><a href="#">Back Exercises</a></li>
                                             <li><a href="#">Chest Exercises</a></li>
                                             <li><a href="#">Leg Exercises</a></li>
