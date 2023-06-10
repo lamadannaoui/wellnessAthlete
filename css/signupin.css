@@ -15,8 +15,9 @@ body{
     align-items: center;
     font-family: "Montserrat",sans-serif;
     font-size: 12px;
-    background-color: #ecf0f3;
+    background-color: #6b7888;
     color: #a0a5a8;
+    padding-top: 20px;
 }
 
 /* hed design lal container lkbir htet hajmu 1000x600 kermel maykoun ktir z8ire wbyetghayar 7asab 7ajm lcheche (lcode li mbalach b @media) */
@@ -30,7 +31,7 @@ body{
      background-color: #1B5E20; 
     /* background-image: url(img/signup-in_bg.png); */
     background-size: cover;
-    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    box-shadow: 3px 3px 3px #d1d9e6, -3px -3px 3px #f9f9f9;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -135,7 +136,7 @@ body{
     font-size: 34px;
     font-weight: 700;
     line-height: 3;
-    color: #181818;
+    color: #fff;
 }
 
 /* hed design lal description yali b2alb lcontainer lz8ar (te3un ya3li byente2el ben lsignup w in) */
@@ -144,6 +145,7 @@ body{
     letter-spacing: 0.25px;
     text-align: center;
     line-height: 1.6;
+    color: #fff;
 }
 
 /* hed design la kl lbuttons */
@@ -155,7 +157,7 @@ body{
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1.15px;
-    background-color: #1B5E20;
+    background-color: #becb65;
     color: #f9f9f9;
     box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
     border: none;
@@ -188,7 +190,7 @@ body{
     padding: 50px;
     z-index: 200;
     transition: 1.25s;
-    background-color: #ecf0f3;
+    background-color: #060f18;
     overflow: hidden;
     box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
 }

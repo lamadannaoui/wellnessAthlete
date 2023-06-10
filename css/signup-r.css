@@ -179,6 +179,7 @@ body{
     box-shadow: 4px 4px 6px 6px #d1d9e6, -3px -3px 5px 5px #f9f9f9;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .a-container{
@@ -203,7 +204,7 @@ body{
     padding: 50px;
     z-index: 200;
     transition: 1.25s;
-    background-color: #060f18e0;
+    background-color: #060f18;
     /* background-color: #6b7888; */
     /* background-color: #becb65; */
     overflow: hidden;

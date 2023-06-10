@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         
         <!-- kermel ldesign w font mn google -->
-        <link rel="stylesheet" type="text/css" href="css/signup-in.css">
+        <link rel="stylesheet" href="css/signupin.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
         
         <title>WA_signup-in</title> 
@@ -17,12 +17,13 @@
             
             <!-- he lcontainer hiye li khasa b 2awal part mnel signup -->
             <div class="container a-container" id="a-container">
-                <form class="form" id="a-form" method="" action=""> <!-- add method+action for php --><!-- (klchi bl english) he lnote eli kermel bas bedi 3adel koun zeker chu bedi a3mel :P -->
+                <form class="form" id="a-form" method="post" action="signup.php"> <!-- add method+action for php --><!-- (klchi bl english) he lnote eli kermel bas bedi 3adel koun zeker chu bedi a3mel :P -->
                     <h2 class="form_title title">Create Account</h2>
-                    <input class="form__input" type="text" placeholder="Name" required>
-                    <input class="form__input" type="text" placeholder="Email" required>
-                    <input class="form__input" type="password" placeholder="Password" required>
-                    <button class="form__button button submit" onclick="window.location.href='resume-signup.html'">Next STEP</button>
+                    <input class="form__input" type="text" name="user" placeholder="Full Name" required>
+                    <input class="form__input" type="text" name="email" placeholder="Email" required>
+                    <input class="form__input" type="password" name="pass" placeholder="Password" required>
+                    <input class="form__button button submit" type="submit" value="Next step">                    
+                    <!-- <button class="form__button button submit" onclick="window.location.href='resume-signup.html'">Next STEP</button> -->
                 </form>
             </div>
             
