@@ -6,10 +6,6 @@ let switchCircle = document.querySelectorAll(".switch__circle");
 let switchBtn = document.querySelectorAll(".switch-btn");
 let aContainer = document.querySelector("#a-container");
 let bContainer = document.querySelector("#b-container");
-let allButtons = document.querySelectorAll(".submit");
-
-//he function esma getButtons 3enda parametre (e) wbtemna3 levent lal buttons
-let getButtons = (e) => e.preventDefault();
 
 //he function esma changeForm 3enda parametre (e)
 let changeForm = (e) => {  

@@ -91,26 +91,7 @@ if(isset($_SESSION['username']) && isset($_SESSION['email'])){
     ';
 }
 else {
-    echo '<style>
-            .message {
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background-color: #f8f8f8;
-                padding: 10px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                text-align: center;
-            }
-          </style>';
-    echo '<div class="message">Something went wrong please try again.</div>';
-    echo '<script>
-            setTimeout(function() {
-              window.location.href = "signup-in.php";
-            }, 1500);
-          </script>';
+    header("Location: errors-success/error.html");
     exit;
 }
 ?>

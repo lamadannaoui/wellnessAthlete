@@ -9,26 +9,7 @@ if (isset($_POST['user'])&&$_POST['user']!="" && isset($_POST['pass'])&&$_POST['
     $nbrows=mysqli_num_rows($res);
     if ($nbrows==1) {
         // Show message and redirect after 1.5 seconds
-        echo '<style>
-                .message {
-                    position: fixed;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    background-color: #f8f8f8;
-                    padding: 10px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    text-align: center;
-                }
-              </style>';
-        echo '<div class="message">This email is already being used.</div>';
-        echo '<script>
-                setTimeout(function() {
-                    window.location.href = "signup-in.php";
-                }, 1500);
-              </script>';
+        header("Location: errors-success/used-email.html");
         exit;
     }
     else{
@@ -39,73 +20,17 @@ if (isset($_POST['user'])&&$_POST['user']!="" && isset($_POST['pass'])&&$_POST['
             $_SESSION['username']=$user;
             $_SESSION['email']=$email;
             
-            echo '<style>
-                .message {
-                    position: fixed;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    background-color: #f8f8f8;
-                    padding: 10px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    text-align: center;
-                }
-              </style>';
-            echo '<div class="message">You are almost there only 1 step left.</div>';
-            echo '<script>
-                    setTimeout(function() {
-                      window.location.href = "resume-signup.php";
-                    }, 1500);
-                  </script>';
+            header("Location: errors-success/signup1-success.html");
             exit;
         }
         else {
-            echo '<style>
-                .message {
-                    position: fixed;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    background-color: #f8f8f8;
-                    padding: 10px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    text-align: center;
-                }
-              </style>';
-            echo '<div class="message">Something went wrong please try again.</div>';
-            echo '<script>
-                    setTimeout(function() {
-                      window.location.href = "signup-in.php";
-                    }, 1500);
-                  </script>';
+            header("Location: errors-success/error.html");
             exit;
         }
     }
-}else {
-    echo '<style>
-                .message {
-                    position: fixed;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    background-color: #f8f8f8;
-                    padding: 10px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    text-align: center;
-                }
-              </style>';
-        echo '<div class="message">Something went wrong please try again.</div>';
-        echo '<script>
-                setTimeout(function() {
-                    window.location.href = "signup-in.php";
-                }, 1500);
-              </script>';
+}
+ else {
+  header("Location: errors-success/error.html");
         exit;
 }
 ?>
