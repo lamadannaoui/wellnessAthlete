@@ -33,8 +33,9 @@
                             <a href="#" aria-haspopup="true" aria-expanded="false">Workouts</a>
 
                             <div class="main-nav__submenu">
+                            
                                 <div class="l-container">
-
+                                
 
 
                                     <!-- he lmenu li bl kehli -->
@@ -47,23 +48,27 @@
                                     </ul>
                                     <!-- he ltable li b2alb lworkout -->
                                     <div class="main-nav__submenu__grid">
-                                        <span class="main-nav__submenu__grid-title">Find Exercises Targeting…</span>
+                                    
+                                        <span class="main-nav__submenu__grid-title">Find Exercises Targeting…
+                                        
+                                        </span>
+
                                         <ul class="main-nav__submenu__grid-list">
-                                            <li><a href="#">Abs and Core Exercises</a></li>
-                                            <li><a href="#">Arm Exercises</a></li>
-                                            <li><a href="#">Back Exercises</a></li>
-                                            <li><a href="#">Chest Exercises</a></li>
-                                            <li><a href="#">Leg Exercises</a></li>
-                                            <li><a href="#">Shoulder Exercises</a></li>
+                                           
+                                        <li><img src="img/abs.png" width="350px" height="100.2px"><a href="#" >Abs  Exercises</a></li>
+                                            <li><img src="img/arm1.png" width="350px" height="100.2px"><a href="#">Arm Exercises</a></li>
+                                            <li><img src="img/back.png" width="350px" height="100.2px"><a href="#">Back Exercises</a></li>
+                                            <li><img src="img/chest.png" width="350px" height="100.2px"><a href="#">Chest Exercises</a></li>
+                                            <li><img src="img/leg.png" width="350px" height="100.2px"><a href="#">Leg Exercises</a></li>
+                                            <li><img src="img/shoulder.jpg" width="350px" height="100.2px"><a href="#">Shoulder Exercises</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </li>
 
-                        <!-- nutrition list -->
-                        <li id="menu-item-1098848" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1098848">
-                            <a href="#">Nutrition</a>
+            
+                           
                             <div class="main-nav__submenu">
                                 <div class="l-container">
 
@@ -98,13 +103,7 @@
                                                     <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
                                                 </figure>
                                             </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Healthy Eating</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">7 Low-Calorie Snacks for Fitness Enthusiasts</a>
-                                                </h3>
-                                            </div>
-                                        </article>
+                                            
 
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
@@ -159,7 +158,7 @@
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
                                                 <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
+                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/art1.jpg"></div>
                                                 </figure>
                                             </a>
                                             <div class="article-simple__content">
@@ -173,7 +172,7 @@
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
                                                 <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
+                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/art2.webp"></div>
                                                 </figure>
                                             </a>
                                             <div class="article-simple__content">
@@ -187,7 +186,7 @@
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
                                                 <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="imglogo.png"></div>
+                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/art3.jpg"></div>
                                                 </figure>
                                             </a>
                                             <div class="article-simple__content">
@@ -201,7 +200,7 @@
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
                                                 <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
+                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/art4.webp"></div>
                                                 </figure>
                                             </a>
                                             <div class="article-simple__content">
@@ -233,7 +232,7 @@
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
                                                 <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
+                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/art5.jpg"></div>
                                                 </figure>
                                             </a>
                                             <div class="article-simple__content">
@@ -247,7 +246,7 @@
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
                                                 <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
+                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/art6.jpg"></div>
                                                 </figure>
                                             </a>
                                             <div class="article-simple__content">
@@ -261,7 +260,7 @@
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
                                                 <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
+                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/art7.jpg"></div>
                                                 </figure>
                                             </a>
                                             <div class="article-simple__content">
@@ -275,7 +274,7 @@
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
                                                 <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
+                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/art8.webp"></div>
                                                 </figure>
                                             </a>
                                             <div class="article-simple__content">
@@ -290,16 +289,10 @@
                             </div>
                         </li>
                         
-                        <li id="menu-item-1148160" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1148160"><a href="#" aria-haspopup="true" aria-expanded="false">Anti-Aging</a>
                             <div class="main-nav__submenu">
                                 <div class="l-container">
 
-                                    <ul class="main-nav__submenu__list">
-                                        <li id="menu-item-1148720" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1148720"><a href="#">Functional Medicine</a></li>
-                                        <li id="menu-item-1148721" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1148721"><a href="#">Hormone Optimization</a></li>
-                                        <li id="menu-item-1148722" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1148722"><a href="#">Recovery</a></li>
-                                        <li id="menu-item-1148723" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1148723"><a href="#">Wellness</a></li>
-                                    </ul>
+                                    
                                     <div class="main-nav__submenu__articles">
                                         <article class="article-simple">
                                             <a class="article-simple__thumbnail" href="#">
@@ -307,12 +300,7 @@
                                                     <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
                                                 </figure>
                                             </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Functional Medicine</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Far from Home Fitness</a>
-                                                </h3>
-                                            </div>
+                                            
                                         </article>
 
                                         <article class="article-simple">
@@ -321,12 +309,7 @@
                                                     <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
                                                 </figure>
                                             </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Wellness</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">The Regenerative Medicine Revolution</a>
-                                                </h3>
-                                            </div>
+                                            
                                         </article>
 
                                         <article class="article-simple">
@@ -335,12 +318,7 @@
                                                     <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
                                                 </figure>
                                             </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Wellness</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">The Big Picture of Improving Brain Health</a>
-                                                </h3>
-                                            </div>
+                                            
                                         </article>
                                         
                                         <article class="article-simple">
@@ -349,233 +327,19 @@
                                                     <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
                                                 </figure>
                                             </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Wellness</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Health is Wealth</a>
-                                                </h3>
-                                            </div>
+                                           
                                         </article>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <li id="menu-item-1098864" class="flex-nav-item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1098864"><a href="#" aria-haspopup="true" aria-expanded="false">Flex</a>
-                            <div class="main-nav__submenu">
-                                <div class="l-container">
-
-                                    <ul class="main-nav__submenu__list">
-                                        <li id="menu-item-1148525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1148525"><a href="#">Olympia Coverage</a></li>
-                                        <li id="menu-item-1139772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1139772"><a href="#">Athletes</a></li>
-                                        <li id="menu-item-1098866" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098866"><a href="#">Nutrition</a></li>
-                                        <li id="menu-item-1098867" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098867"><a href="#">Training</a></li>
-                                        <li id="menu-item-1099063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099063"><a href="#">Videos</a></li>
-                                    </ul>
-                                    <div class="main-nav__submenu__articles">
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">News</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Andrea Shaw Headlines Stacked 2023 Rising Phoenix Card</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">News</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">What is the Future of Women’s Bodybuilding?</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="img/logo.png">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">News</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">'Prime Time Muscle' Compares Two of Germany’s Best Classic Physique Athl...</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">News</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Olympia Legend Frank Zane Looks Back on HIs Career on 'The Menace Podcas...</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        
-                        <li id="menu-item-1098869" class="hers-nav-item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1098869"><a href="#" aria-haspopup="true" aria-expanded="false">Hers</a>
-                            <div class="main-nav__submenu">
-                                <div class="l-container">
-
-                                    <ul class="main-nav__submenu__list">
-                                        <li id="menu-item-1098870" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098870"><a href="#">Workouts</a></li>
-                                        <li id="menu-item-1098871" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098871"><a href="#">Nutrition</a></li>
-                                        <li id="menu-item-1098872" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098872"><a href="#">Supplements</a></li>
-                                        <li id="menu-item-1098873" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098873"><a href="#">Athletes &#038; Celebrities</a></li>
-                                        <li id="menu-item-1098874" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098874"><a href="#">Features</a></li>
-                                    </ul>
-                                    <div class="main-nav__submenu__articles">
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Hers Athletes &amp; Celebrities</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">'Casa Grande' Star Kate Mansi Shares Her Wellness Rules</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Hers Workouts</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Two IFBB Bikini Pros Show You How to Build Olympia Caliber Legs and Glut...</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-                                        
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Hers Workouts</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">This 'Ninja Warrior' Will Help You Master Your First Pullup</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Hers Features</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Tips for Maximizing Life and Fitness from a Tech Exec and Top Athlete</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        
-                        <li id="menu-item-1115253" class="olympia-nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1115253"><a href="https://mrolympia.com/" aria-haspopup="true" aria-expanded="false">Olympia</a>
-                            <div class="main-nav__submenu">
-                                <div class="l-container">
-
-                                    <ul class="main-nav__submenu__list">
-                                        <li id="menu-item-1148540" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1148540"><a href="#">Olympia Coverage</a></li>
-                                        <li id="menu-item-1119592" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1119592"><a rel="nofollow" href="https://mrolympia.com/">Buy Tickets</a></li>
-                                    </ul>
-                                    <div class="main-nav__submenu__articles">
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Pro Tips</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Caesar Bacarella Is Building a Fitness Empire at Full Speed</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Interviews</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Whitney Jones Can Break, But Can Never Be Broken</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">Interviews</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">Yarishna Ayala Shares Advice for Future Wellness Division Competitors</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-                                        
-                                        <article class="article-simple">
-                                            <a class="article-simple__thumbnail" href="#">
-                                                <figure class="article__figure">
-                                                    <div style="padding-bottom:56%;" class="ratio-based-placeholder"><img src="img/logo.png"></div>
-                                                </figure>
-                                            </a>
-                                            <div class="article-simple__content">
-                                                <a class="article__category" href="#">News</a>
-                                                <h3 class="article-simple__title">
-                                                    <a href="#">BIG RAMY WINS THE 2021 OLYMPIA!</a>
-                                                </h3>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
+                        <li id="menu-item-1098864" class="flex-nav-item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1098864"><a href="https://flex.com" aria-haspopup="true" aria-expanded="false"><img src="img/flex.png" alt="Image description" width="55" height="24"></a>
+                           
+                      
+                        &nbsp;  &nbsp;
+                        <li class="nav1" id="menu-item-1098869" class="hers-nav-item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1098869"><a href="https://flex.com" aria-haspopup="true" aria-expanded="false"><img src="img/hers.png" alt="Image description" width="80" height="44"></a>
+                        <li id="menu-item-1115253" class="olympia-nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1115253"><a href="https://mrolympia.com/" aria-haspopup="true" aria-expanded="false"><img src="img/olympia.png" alt="Image description" width="55" height="50"></a>
+                            
             <!-- for the menu (ltlat ch7awit :P) -->
             <div id="menu-trigger" class="header__menu-trigger">
                 <span></span>
@@ -598,7 +362,7 @@
 
                     <div class="swiper-slide slide">
                         <div class="image">
-                            <img src="img/logo.png" alt="test">
+                            <img src="img/sl1.webp" alt="test">
                         </div>
                         <div class="content">
                             <span>Health is Wealth</span>
@@ -609,7 +373,7 @@
 
                     <div class="swiper-slide slide">
                         <div class="image">
-                            <img src="img/logo.png" alt="">
+                            <img  src="img/fit.jpg" alt="">
                         </div>
                         <div class="content">
                             <span>Healthy body, Healthy mind, Healthy Life</span>
