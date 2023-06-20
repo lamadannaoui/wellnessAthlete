@@ -1,9 +1,9 @@
-<?php
+<!-- < ?php
 session_start();
 if(isset($_SESSION['username']) && isset($_SESSION['email'])){
     $username = $_SESSION['username'];
     $email = $_SESSION['email'];
-    echo '
+    echo ' -->
     <!DOCTYPE html>
     <html lang="es" dir="ltr">
         <head>
@@ -39,6 +39,7 @@ if(isset($_SESSION['username']) && isset($_SESSION['email'])){
                                 <label for="female">female</label>
                             </div>
                         </div>
+                        <input class="form__button button" type="submit" value="Next step"> 
                     </form>
                 </div>
                 <!-- he container kermel lmedical history wl preffered exercise place wl goal -->
@@ -88,10 +89,10 @@ if(isset($_SESSION['username']) && isset($_SESSION['email'])){
             <script src="js/signup-r.js"></script>
         </body>
     </html>
-    ';
+    <!-- ';
 }
 else {
     header("Location: errors-success/error.html");
     exit;
 }
-?>
+?> -->
