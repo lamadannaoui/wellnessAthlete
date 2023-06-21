@@ -30,7 +30,7 @@
                     <ul id="menu-top-primary-menu" class="main-nav__list">
                         <!-- workout list -->
                         <li id="menu-item-1098842" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1098842">
-                            <a href="#" aria-haspopup="true" aria-expanded="false">Workouts</a>
+                            <a href="#" aria-haspopup="true" aria-expanded="false">Fitness</a>
 
                             <div class="main-nav__submenu">
                             
@@ -48,6 +48,7 @@
                                     </ul>
                                     <!-- he ltable li b2alb lworkout -->
                                     <div class="main-nav__submenu__grid">
+<<<<<<< HEAD
                                     
                                         <span class="main-nav__submenu__grid-title">Find Exercises Targeting…
                                         
@@ -61,6 +62,16 @@
                                             <li><img src="img/chest.png" width="350px" height="100.2px"><a href="#">Chest Exercises</a></li>
                                             <li><img src="img/leg.png" width="350px" height="100.2px"><a href="#">Leg Exercises</a></li>
                                             <li><img src="img/shoulder.jpg" width="350px" height="100.2px"><a href="#">Shoulder Exercises</a></li>
+=======
+                                        <span class="main-nav__submenu__grid-title">Find the page you're Targeting…</span>
+                                        <ul class="main-nav__submenu__grid-list">
+                                            <li><a href="#">Recalculate your BMI</a></li>
+                                            <li><a href="#">Check your progress</a></li>
+                                            <li><a href="#">Back Exercises</a></li>
+                                            <li><a href="#">Chest Exercises</a></li>
+                                            <li><a href="#">Leg Exercises</a></li>
+                                            <li><a href="#">Shoulder Exercises</a></li>
+>>>>>>> 9299950ff9109942e955282839b987c157283d60
                                         </ul>
                                     </div>
                                 </div>

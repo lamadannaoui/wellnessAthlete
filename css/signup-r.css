@@ -1,18 +1,20 @@
 /* 3emel copy mnel signup-in wm8ayar kam cha8le bas mabda2iyan nafs l class */
-*, *::after, *::before{
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     user-select: none;
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 12px;
     background-color: #6b7888;
     /* background-color: #060f18e0; */
@@ -20,10 +22,10 @@ body{
     padding-top: 20px;
 }
 
-.main{
+.main {
     position: relative;
     width: 1000px;
-    min-width: 1000px;  
+    min-width: 1000px;
     min-height: 600px;
     height: 600px;
     padding: 25px;
@@ -37,42 +39,42 @@ body{
 
 /* haydol lmedia kermel hasab hajm lcheche bisir hajm lmouraba3 te3 el signup-in byet8ayar zebaton 3a hajem kaza no3 devices*/
 @media (max-width: 1200px) {
-    .main{
+    .main {
         transform: scale(0.7);
     }
 }
 
 @media (max-width: 1000px) {
     .main {
-      transform: scale(0.6);
+        transform: scale(0.6);
     }
 }
 
 @media (max-width: 800px) {
     .main {
-      transform: scale(0.5);
+        transform: scale(0.5);
     }
 }
 
 @media (max-width: 600px) {
     .main {
-      transform: scale(0.4);
+        transform: scale(0.4);
     }
 }
 
 @media (max-width: 400px) {
     .main {
-      transform: scale(0.35);
+        transform: scale(0.35);
     }
 }
 
 @media (max-width: 300px) {
     .main {
-      transform: scale(0.25);
+        transform: scale(0.25);
     }
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +89,7 @@ body{
     transition: 1.25s;
 }
 
-.form{
+.form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +98,7 @@ body{
     height: 100%;
 }
 
-.form__input{
+.form__input {
     width: 150px;
     height: 40px;
     margin: 4px 4px;
@@ -113,7 +115,7 @@ body{
 }
 
 /* he class ana zeydu kermel zabet ltari2a kif lgender haybayen */
-.gender > h3{
+.gender>h3 {
     width: 150px;
     height: 40px;
     margin: 4px 4px;
@@ -135,7 +137,7 @@ body{
     box-shadow: inset 4px 4px 4px #d1d9e6, inset -4px -4px 4px #f9f9f9;
 }
 
-.form__link{
+.form__link {
     color: #181818;
     font-size: 15px;
     margin-top: 25px;
@@ -144,21 +146,21 @@ body{
     cursor: pointer;
 }
 
-.title{
+.title {
     font-size: 34px;
     font-weight: 700;
     line-height: 3;
     color: #fff;
 }
 
-.form > .title{
+.form>.title {
     font-size: 34px;
     font-weight: 700;
     line-height: 3;
     color: #000;
 }
 
-.description{
+.description {
     font-size: 14px;
     letter-spacing: 0.25px;
     text-align: center;
@@ -166,7 +168,7 @@ body{
     color: #fff;
 }
 
-.button{
+.button {
     width: 180px;
     height: 50px;
     border-radius: 25px;
@@ -179,19 +181,20 @@ body{
     box-shadow: 4px 4px 6px 6px #d1d9e6, -3px -3px 5px 5px #f9f9f9;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
-.a-container{
+.a-container {
     z-index: 100;
-    left: calc(100% - 600px );
+    left: calc(100% - 600px);
 }
 
-.b-container{
-    left: calc(100% - 600px );
+.b-container {
+    left: calc(100% - 600px);
     z-index: 0;
 }
 
-.switch{
+.switch {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,14 +206,14 @@ body{
     padding: 50px;
     z-index: 200;
     transition: 1.25s;
-    background-color: #060f18e0;
+    background-color: #060f18;
     /* background-color: #6b7888; */
     /* background-color: #becb65; */
     overflow: hidden;
     box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
 }
 
-.switch__circle{
+.switch__circle {
     position: absolute;
     width: 500px;
     height: 500px;
@@ -219,17 +222,17 @@ body{
     box-shadow: inset 8px 8px 12px #8896a7, inset -6px -6px 10px #8896a7;
     bottom: -60%;
     left: -60%;
-    transition: 1.25s;   
+    transition: 1.25s;
 }
 
-.switch__circle--t{
+.switch__circle--t {
     top: -30%;
     left: 60%;
     width: 300px;
     height: 300px;
 }
 
-.switch__container{
+.switch__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,55 +243,61 @@ body{
     transition: 1.25s;
 }
 
-.switch__button{
+.switch__button {
     cursor: pointer;
 }
 
-.switch__button:hover{
+.switch__button:hover {
     box-shadow: 2px 2px 3px 3px #d1d9e6, -2px -2px 3px 3px #f9f9f9;
     transform: scale(0.985);
     transition: 0.25s;
 }
 
-.switch__button:active, .switch__button:focus{
+.switch__button:active,
+.switch__button:focus {
     box-shadow: 2px 2px 6px #d1d9e6, -2px -2px 6px #f9f9f9;
     transform: scale(0.97);
     transition: 0.25s;
 }
 
-.is-txr{
-    left: calc(100% - 400px );
+.is-txr {
+    left: calc(100% - 400px);
     transition: 1.25s;
     transform-origin: left;
 }
 
-.is-txl{
+.is-txl {
     left: 0;
     transition: 1.25s;
     transform-origin: right;
 }
 
-.is-z200{
+.is-z200 {
     z-index: 200;
     transition: 1.25s;
 }
 
-.is-hidden{
+.is-hidden {
     visibility: hidden;
     opacity: 0;
     position: absolute;
     transition: 1.25s;
 }
 
-.is-gx{
+.is-gx {
     animation: is-gx 1.25s;
 }
 
 @keyframes is-gx {
-    0%, 10%, 100% {
+
+    0%,
+    10%,
+    100% {
         width: 400px;
     }
-    30%, 50%{
+
+    30%,
+    50% {
         width: 500px;
     }
 }

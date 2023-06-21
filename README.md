@@ -1,2 +1,2 @@
-# add connection.php and working on updated home page 
-zedet home.php ma3 home.css wkam soura l home.php esa ma khelasta bas nedafta 3al ekher be2ili bas zabet lnav bar 8ayer lfa2set wlkatibe w2ouwsol el linket wesa 3layi ektob l php lal home hala ana ka fa2set knt newi 7ot masalan badal el workout ektob fitness w b2alba 7ot linket la page lfitness weza lcha5es makan 3emel login btsir bte5dou 3al login wbas y5ales bterja3 bte5du 3al matra7 yali hewe bedu yeh also sorry bas ma3am efda dayman la 2e2der echte8el 3leh hewe hayda kan lezem 5alesu nbere7 aw lyom bas lyom ma 2deret so boukra 7a echte8el 3leh bl uni chway 
+# 6-15-23
+3edalet kam cha8le wzebatet ldatabase etc ka signup saret che8ale 100% be2i 3layi bas l login wa3mel lresume bas hol de8ri bye5lasou la2an lcode jehez ma3i bas esa ma hetaytou 

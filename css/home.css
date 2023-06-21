@@ -6,9 +6,12 @@
   --white: #ffffff;
   --light-grey-color: #414d5c;
   --light-bg: #eee;
+<<<<<<< HEAD
   --border: .2rem solid var(--black);
   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
   
+=======
+>>>>>>> 9299950ff9109942e955282839b987c157283d60
 }
 
 
