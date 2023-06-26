@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +11,7 @@
     <!-- css lal slider -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> -->
 
 </head>
 
@@ -30,52 +29,7 @@
                     <ul id="menu-top-primary-menu" class="main-nav__list">
                         <!-- workout list -->
                         <li id="menu-item-1098842" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1098842">
-                            <a href="#" aria-haspopup="true" aria-expanded="false">Fitness</a>
-
-                            <div class="main-nav__submenu">
-                            
-                                <div class="l-container">
-                                
-
-
-                                    <!-- he lmenu li bl kehli -->
-                                    <ul class="main-nav__submenu__list">
-                                        <li id="menu-item-1099062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099062"><a href="#">Workout Routines</a></li>
-                                        <li id="menu-item-1098844" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098844"><a href="#">Workout Tips</a></li>
-                                        <li id="menu-item-1120600" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1120600"><a href="#">Fitness</a></li>
-                                        <li id="menu-item-1098846" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1098846"><a href="#">Athlete/Celebrity Workouts</a></li>
-                                        <li id="menu-item-1099061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099061"><a href="#">Exercise Videos</a></li>
-                                    </ul>
-                                    <!-- he ltable li b2alb lworkout -->
-                                    <div class="main-nav__submenu__grid">
-<<<<<<< HEAD
-                                    
-                                        <span class="main-nav__submenu__grid-title">Find Exercises Targeting…
-                                        
-                                        </span>
-
-                                        <ul class="main-nav__submenu__grid-list">
-                                           
-                                        <li><img src="img/abs.png" width="350px" height="100.2px"><a href="#" >Abs  Exercises</a></li>
-                                            <li><img src="img/arm1.png" width="350px" height="100.2px"><a href="#">Arm Exercises</a></li>
-                                            <li><img src="img/back.png" width="350px" height="100.2px"><a href="#">Back Exercises</a></li>
-                                            <li><img src="img/chest.png" width="350px" height="100.2px"><a href="#">Chest Exercises</a></li>
-                                            <li><img src="img/leg.png" width="350px" height="100.2px"><a href="#">Leg Exercises</a></li>
-                                            <li><img src="img/shoulder.jpg" width="350px" height="100.2px"><a href="#">Shoulder Exercises</a></li>
-=======
-                                        <span class="main-nav__submenu__grid-title">Find the page you're Targeting…</span>
-                                        <ul class="main-nav__submenu__grid-list">
-                                            <li><a href="#">Recalculate your BMI</a></li>
-                                            <li><a href="#">Check your progress</a></li>
-                                            <li><a href="#">Back Exercises</a></li>
-                                            <li><a href="#">Chest Exercises</a></li>
-                                            <li><a href="#">Leg Exercises</a></li>
-                                            <li><a href="#">Shoulder Exercises</a></li>
->>>>>>> 9299950ff9109942e955282839b987c157283d60
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            <a href="#" >Fitness</a>
                         </li>
 
             
@@ -373,7 +327,7 @@
 
                     <div class="swiper-slide slide">
                         <div class="image">
-                            <img src="img/sl1.webp" alt="test">
+                            <img src="img/health.png" alt="test">
                         </div>
                         <div class="content">
                             <span>Health is Wealth</span>
@@ -384,7 +338,7 @@
 
                     <div class="swiper-slide slide">
                         <div class="image">
-                            <img  src="img/fit.jpg" alt="">
+                            <img  src="img/fitness.png" alt="">
                         </div>
                         <div class="content">
                             <span>Healthy body, Healthy mind, Healthy Life</span>
@@ -404,15 +358,32 @@
         </section>
     </div>
     
-    <div style="background-color: white; height: 2000px;">
-        <h1>test</h1>
-        <h1>test</h1>
-        <h1>test</h1>
-        <h1>test</h1>
-        <h1>test</h1>
-        <h1>test</h1>
-        
-    </div>
+    <div class="row">
+		<div class="card" style="color: white;background: var(--secondary-color);">
+			<h2>Progression</h2>
+			<p>You'll find expert guidance on goal setting, progress tracking, periodization, 
+				and progressive overload. We'll help you stay on track, make measurable progress,
+				and continuously challenge yourself to reach new heights in your fitness journey.</p>
+			
+		</div>
+		<div class="card" style="background: white;">
+			<h2 style="color: var(--primary-color);">Workout</h2>
+			<p style="color: var(--secondary-color);">
+				Explore different workout types, perfect your exercise techniques,
+				access sample workout programs, and discover the importance of recovery and rest. 
+				Elevate your fitness journey with our comprehensive resources.</p>
+			
+		</div>
+		<div class="card" style="color: white;background: var(--primary-color);">
+			<h2>Nutrition</h2>
+			<p>We also focus on providing key insights on a balanced diet, macronutrients, meal planning,
+				and the impact of nutrition on your overall well-being. 
+				Elevate your nutrition knowledge and make informed choices for a healthier lifestyle.</p>
+			
+		</div>
+	</div>
+    
+    
 
     <!-- he lscript lal slider -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
