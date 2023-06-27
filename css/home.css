@@ -817,7 +817,7 @@ h3 a {
   /* z-index: 999; */
 }
 .card{
-	width: 30%;
+	width: 27%;
 	height: 300px;
 	display: flex;
 	justify-content: center;
@@ -825,6 +825,8 @@ h3 a {
 	align-items: center;
 	padding: 5%;
 	border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0px 3px 10px grey;
 }
 .card h2{
 	text-transform: uppercase;
@@ -836,7 +838,7 @@ h3 a {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	overflow: hidden;
+	/* overflow: hidden; */
 	list-style: none;
 	padding: 0;
 	z-index: 1
